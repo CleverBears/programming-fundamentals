@@ -1,0 +1,19 @@
+using System;
+
+namespace CreditCardNumber
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var creditCardNumber1 = int.Parse(Console.ReadLine());
+            var creditCardNumber2 = int.Parse(Console.ReadLine());
+            var creditCardNumber3 = int.Parse(Console.ReadLine());
+            var creditCardNumber4 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine($"{creditCardNumber1:D4} {creditCardNumber2:D4} {creditCardNumber3:D4} {creditCardNumber4:D4}");
+
+
+        }
+    }
+}
