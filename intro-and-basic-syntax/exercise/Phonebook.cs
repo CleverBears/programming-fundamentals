@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 class Phonebook
 {
 	static void Main()
 	{
-		var dict = new Dictionary<string, string>();
+		var dictionary = new Dictionary<string, string>();
 
 		while (true)
 		{
