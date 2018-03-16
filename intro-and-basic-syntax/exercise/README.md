@@ -11,7 +11,6 @@ examples below for the appropriate formatting.
 
 #### Examples
 
- 
 
 **Input**
 
