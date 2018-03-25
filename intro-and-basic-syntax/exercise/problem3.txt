@@ -1,0 +1,18 @@
+using System;
+
+namespace milesTokilometers
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double miles = double.Parse(Console.ReadLine());
+
+            double kilometersPerMiles = 1.60934;
+
+            double kilometer = miles * kilometersPerMiles;
+
+            Console.WriteLine($"{kilometer:F2}");
+        }
+    }
+}
