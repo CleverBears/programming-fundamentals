@@ -6,6 +6,7 @@ namespace milesTokilometers
     {
         static void Main(string[] args)
         {
+		//пиша каквото ми дойде на акъла
             double miles = double.Parse(Console.ReadLine());
 
             double kilometersPerMiles = 1.60934;
