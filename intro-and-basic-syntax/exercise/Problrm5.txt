@@ -11,12 +11,12 @@ namespace characterStats
             int maxHealth = int.Parse(Console.ReadLine());
             int currentEnergy = int.Parse(Console.ReadLine());
             int maxEnergy = int.Parse(Console.ReadLine());
-
+		//We Calculate....
             string healthAsText = new string('|', currentHealth);
             string healthMissing = new string('.', maxHealth - currentHealth);
             string energyAsText = new string('|', currentEnergy);
             string energyMissing = new string('.', maxEnergy - currentEnergy);
-
+		//ToDo
             Console.WriteLine($"Name: {name}");
             Console.WriteLine($"Health: |{healthAsText}{healthMissing}|");
             Console.WriteLine($"Energy: |{energyAsText}{energyMissing}|");
